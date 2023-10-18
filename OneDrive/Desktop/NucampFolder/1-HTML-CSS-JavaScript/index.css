@@ -1,0 +1,70 @@
+.container{
+    background-color: burlywood;
+    margin-top: 20px;
+    margin-right:50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.title{
+    border:solid rgb(20, 3, 36) 4px;
+}
+h1,h2,h3{
+    text-align:center; 
+}
+h1{
+    color:rgb(13, 13, 190);
+}
+h2{
+    color:rgb(85, 45, 6);
+}
+h3{
+    color:rgb(74, 8, 135)
+}
+p{
+    color:rgb(20, 3, 36) 
+}
+ol{
+   background-color: aquamarine;
+   margin-top:0px;
+   margin-right:4px;
+   margin-bottom:0px;
+}
+ul{
+    background-color: aquamarine;
+    margin-left:0px;
+    margin-right:2px;
+    margin-top:0px;
+    
+}
+.img1{
+    margin-right:4px;
+}
+.center{
+    display:flex;
+    border:solid rgb(20, 3, 36) 5px;
+}
+.row1{
+    background-color: red;
+    color:whitesmoke;
+}
+.col1{
+    background-color: blue;
+    color:whitesmoke
+}
+.col2{
+    background-color: yellow;
+}
+legend{
+    border:solid rgb(20, 3, 36) 2px;
+    color:white;
+    background-color: red;
+}
+fieldset{
+    border:solid rgb(20, 3, 36) 4px;
+    background-color: blueviolet;
+    color:white;
+}
+button{
+    background-color:red;
+    color:whitesmoke
+}

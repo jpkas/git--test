@@ -1,0 +1,109 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+      <meta data FTU-8>
+      <link rel="stylesheet" href="index.css">
+      <title>Html-CSS-Javascript in action</title>
+
+    </head>
+    <body class="container">
+    
+      <div class="title">
+       <h1>Html-Css-Javascript Web Page Portofolio.</h1>
+       <h2>Power of div,id and class(es).</h2>
+       <h3>By JeanPierre Kasonga</h3>
+      </div>
+    
+      <div>
+        <p><em><b>
+          This is html-css-javascript web page that I designed with the simple desire to show how master these technology. That said don't try to find in this page the responsive features for Mobile first.When I will build a Bootstrap page you will see that.This is an exercise for beginner web developers to see what can be done with html,css and javascript. So ,I have chosen div(s) to hold main elements of this page ,namelly an ordered list,two images,an unordered list, a table and a form. Without CSS the page is vertical each element following the other without colors and movement.This html structure is like the human skeleton without flesh which is of course scury or simply boring.To embelish the page I created a file index.css in the same folder where I created the index.html and the two images. With the CSS- display-flex property applied to classes embeded in div(s) , I was able to obtain an horizontal layout for buttons,lists and images.Then I applied colors and background-colors to elements,id(s) and classes(again) selected for this purpose. Now the page is looking pretty good like a human body. However it doesn't have movement like a monument, no interactivity. With Javascript code embeded in the script element that I placed before the body closing tag I gave motion to the page. I linked 4 buttons to the id of each element to be toggled. With the magic of javascript addEventListener code the computer is able to listen to the click upon the button leading to making the specified element appear or disappear from the page.It is magic, isn't ? By clicking on these buttons one after another you will remove from the page the student items list, the Washington obelisk monument and people in St Theresa church images, and, finally, the table of fruits with their prices. You will leave on the page only the buttons,texts(intro and conclusion) and the form to be filled. Vis-versa if you want you will return them again just by clicking those buttons.I hope you will be pleased to fill the form with your credentials and submit.</p>
+        </b></em></p>
+      </div>
+
+      <button >Ordered list</button>
+      <button >Two pictures</button>
+      <button >Unordered list</button>
+      <button >Table</button>
+      <section class="center">
+      <div>
+          <ol>
+            <li>Books</li>
+            <li>Note-book</li>
+            <li>Pen</li>
+            <li>Pencil</li>
+            <li>computer</li>
+          </ol>
+        </div>
+        <div class="img1">
+          <img src="IMG_0051.JPG" width="180" alt= "People enjoying Seahwaks match.">
+         </div> 
+         <div class="img2">
+          <img src="IMG_0052.JPG" width="180" alt="Youth in Traditional Mexican outfit for parade.">
+        </div>
+        <div>
+          <ul>
+            <li>Mercedes</li>
+            <li>Suvy</li>
+            <li>VW</li>
+            <li>chevrolet</li>
+            <li>Ford</li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+        <div>
+          <table width="100%" border="3">
+            <tr class="row1">
+              <td>Fruits</td>
+              <td>Quantity</td>
+              <td>Price/unit</td>
+              <td>Total</td>
+          </tr>
+          <tr>
+            <td class="col1">Mangoes</td>
+            <td class="col2">500</td>
+            <td class="col2">$1.50</td>
+            <td class="col2">$750.00</td>  
+        </tr>
+        <tr>
+          <td class="col1">Bananas</td>
+          <td class="col2">1000</td>
+          <td class="col2">$0.25</td>
+          <td class="col2">$250.00</td>
+      </tr>
+      <tr>
+        <td class="col1">Avocados</td>
+        <td class="col2">150</td>
+        <td class="col2">$2.50</td>
+        <td class="col2">$375.00</td>
+    </tr>
+          </table>
+        </div>
+        <div>
+          <p><em><b>
+            Thank you for visiting this page. Hopefully you have enjoyed it in the simplicity of the index.html file, the layout,the colors and other features of css and the movements and interactivity of Javascript. Html , CSS and Javascript are not mystical things . These are web development technologies accessible to everyone from elementary school to college and university students. Everybody can do it .With study and dedication you can do it too.
+    If you are interested , submit your credentials in the form below. I will be back to you as soon as possible . My promise to you is not a big lesson because technology is not about talking but doing. My promise to you is to show you small tricks so that you will be able to write first web page "Hello World" within a week . My promise is to walk with you one -two, one -two into depht of web development technology.The Bible says that God created the world with His Eternal WORD.Being God's creatures we too can create "Things" with our words. By the way, John L. Austin ,a British philosopher of language and leading proponent of ordinary language philosophy wrote a book intitled "How to Do Things With Words".In our days written words in code have made miracles and transformed the world. The world is on fire with coding.Don't you like to be like God ?wish to be left behind.Bye! see you soon.
+  </b></em></p>
+        </div>
+        <div class="form">
+          <fieldset text-align="left" width="50%" border="4">
+            <legend>Your contact details</legend>
+              <form name="login_form" autocomplete="off" novalidate method="post" onsubmit="return false" >
+                  <label>
+                   Name
+                   <input type="text" name="username" />
+                  </label>      
+                  <label>
+                   Email
+                  <input type="email" name="email" />
+                  </label>
+                  <label>
+                  Phone Number
+                  <input type="tel" name="phone" />
+                  </label>
+                  <button type="submit">Submit</button>
+                </form>
+              </fieldset>           
+      </div>
+    </body>
+</html>

@@ -16,16 +16,17 @@
     
       <div>
         <p><em><b>
-          This is html-css-javascript web page that I designed with the simple desire to show how master these technology. That said don't try to find in this page the responsive features for Mobile first.When I will build a Bootstrap page you will see that.This is an exercise for beginner web developers to see what can be done with html,css and javascript. So ,I have chosen div(s) to hold main elements of this page ,namelly an ordered list,two images,an unordered list, a table and a form. Without CSS the page is vertical each element following the other without colors and movement.This html structure is like the human skeleton without flesh which is of course scury or simply boring.To embelish the page I created a file index.css in the same folder where I created the index.html and the two images. With the CSS- display-flex property applied to classes embeded in div(s) , I was able to obtain an horizontal layout for buttons,lists and images.Then I applied colors and background-colors to elements,id(s) and classes(again) selected for this purpose. Now the page is looking pretty good like a human body. However it doesn't have movement like a monument, no interactivity. With Javascript code embeded in the script element that I placed before the body closing tag I gave motion to the page. I linked 4 buttons to the id of each element to be toggled. With the magic of javascript addEventListener code the computer is able to listen to the click upon the button leading to making the specified element appear or disappear from the page.It is magic, isn't ? By clicking on these buttons one after another you will remove from the page the student items list, the Washington obelisk monument and people in St Theresa church images, and, finally, the table of fruits with their prices. You will leave on the page only the buttons,texts(intro and conclusion) and the form to be filled. Vis-versa if you want you will return them again just by clicking those buttons.I hope you will be pleased to fill the form with your credentials and submit.</p>
+          This is an html-css-javascript web page that I designed just to show what I can do with this technology. I did not use bootstrap.Don't try to find on it the Mobile-First features, even though it is responsive at some extent. Being myself beginner web developer, I would like to encourage those who just began to learn html-CSS-Javascript . At the same time I would like to thank nucamp Bootcamp for the opportunity to code offered to me. <br>The flow of my html work is based on a judicious choice of div(s). A first div contains the h1,h2,h3 elements. A secomd div contains the paragraph of introduction .Then I have created a section containing 4 div(s) to hold two lists and two images. Outside of the section two other div(s) hold a table and a fieldset with form. <br>Without CSS the html page is vertical each element mentioned above following the other without colors nor movement. I like to compare html structure to the human skeleton without flesh. In art,the skeleton evokes the idea of ghost or dead person. It is scary. I mean that html alone is boring. But a human body without skeleton cannot stand. To embelish my html-page, I have created a css-file (index.css) in the same folder where I placed the html-file(index.html) and the two images files. I have chosen class(es) and Id(s) selectors to apply property on the html elements. The class center ,for example ,enabled me to change the html vertical layout into an horintal layout by the mean of the display-flex property. In the same way I applied color and background-color to diffrent parts of the page. Now the page looks like pretty. <br>However it is lacking movement or interactivity. That is why I invited Javascript to help. Instead of creating a Javascript file, I embeded my script in the html placing it before the body's closing tag. The Javascript code inside the script has the power to bring motion to the html-css-page. Of course ,I linked the 4 buttons to the id(s) of each element to be toggled. With the power of javascript addEventListener code the computer is not only able to listen to the click made upon the buttons, but to obey to that prompt. In obedience to the prompt , the computer will make the specified element appear or disappear from the page. So ,by clicking on the buttons one after another you will remove from the page the lists , images and table ; only to leave on it the buttons, the introducting and concluding texts and the form. Vis-versa, you can bring back these elements again just by clicking the same buttons one after another.It is almost magic, isn't ?</p>
         </b></em></p>
       </div>
 
-      <button >Ordered list</button>
-      <button >Two pictures</button>
-      <button >Unordered list</button>
-      <button >Table</button>
+      <button id="togg1">Ordered list</button>
+      <button id="togg2">Seahwalks match</button>
+      <button id="togg3">Inside St Theresa Church</button>
+      <button id="togg4">Unordered list</button>
+      <button id="togg5">Table</button>
       <section class="center">
-      <div>
+      <div id="d1">
           <ol>
             <li>Books</li>
             <li>Note-book</li>
@@ -34,13 +35,17 @@
             <li>computer</li>
           </ol>
         </div>
+        <div id="d2">
         <div class="img1">
-          <img src="IMG_0051.JPG" width="180" alt= "People enjoying Seahwaks match.">
-         </div> 
+          <img src="IMG_0051.JPG" width="180" alt="Seahwaks'funs">
+         </div>
+        </div> 
+        <div id="d3">
          <div class="img2">
-          <img src="IMG_0052.JPG" width="180" alt="Youth in Traditional Mexican outfit for parade.">
+          <img src="IMG_0052.JPG" width="180" alt="Youth in Traditional Mexican outfit with the pastor.">
         </div>
-        <div>
+        </div>
+        <div id="d4">
           <ul>
             <li>Mercedes</li>
             <li>Suvy</li>
@@ -51,7 +56,7 @@
           </ul>
         </div>
       </section>
-        <div>
+        <div id="d5">
           <table width="100%" border="3">
             <tr class="row1">
               <td>Fruits</td>
@@ -81,8 +86,8 @@
         </div>
         <div>
           <p><em><b>
-            Thank you for visiting this page. Hopefully you have enjoyed it in the simplicity of the index.html file, the layout,the colors and other features of css and the movements and interactivity of Javascript. Html , CSS and Javascript are not mystical things . These are web development technologies accessible to everyone from elementary school to college and university students. Everybody can do it .With study and dedication you can do it too.
-    If you are interested , submit your credentials in the form below. I will be back to you as soon as possible . My promise to you is not a big lesson because technology is not about talking but doing. My promise to you is to show you small tricks so that you will be able to write first web page "Hello World" within a week . My promise is to walk with you one -two, one -two into depht of web development technology.The Bible says that God created the world with His Eternal WORD.Being God's creatures we too can create "Things" with our words. By the way, John L. Austin ,a British philosopher of language and leading proponent of ordinary language philosophy wrote a book intitled "How to Do Things With Words".In our days written words in code have made miracles and transformed the world. The world is on fire with coding.Don't you like to be like God ?wish to be left behind.Bye! see you soon.
+            Thank you for visiting this page. Hopefully you have enjoyed the simplicity of the html, the beauty of css and the interactivity of Javascript. Of course , when you look at the page, you will not be able to distinguish the html from css or from Javascript. The page is like the symphony of these three technologies in one piece. The way they work together produce the magic effect .But Html , CSS and Javascript are not mystical things . These are modern web development technologies accessible to everyone from elementary school students, to college and university students and scholars. Everybody can do it .With interest ,search and dedication you can do it too.
+    If you are interested, submit y`our credentials in the form below. I will be back to you shortly. My promise to you is that I will recommend you to one of the nucamp embassadors to quench your coding hunger. Or, if you want, I will show you some tricks to help you write your first "Hello World page!" within a week and lead you on the path to master coding. Yes,coding is not about talking but about technology or developing practical skills. You just need to practice and develop new languages different from our ordinary language. As you know ,the Bible says that God created the world with His Eternal WORD.Being God's creatures we too can create with words. By the way, John L. Austin ,a British philosopher of language and leading proponent of ordinary language philosophy wrote a book intitled "How to Do Things With Words".In the same way pastors' words have converted souls and made miracles, in our days web pages and apps have transformed different sectors of human life and set the world on fire. One who has set his hand on coding activity should not look back!Bye! See you soon with a bootstrap page.
   </b></em></p>
         </div>
         <div class="form">
@@ -105,5 +110,53 @@
                 </form>
               </fieldset>           
       </div>
+      <script>
+        let togg1=document.getElementById("togg1");
+        let togg2=document.getElementById("togg2");
+        let togg3=document.getElementById("togg3");
+        let togg4=document.getElementById("togg4");
+        let togg5=document.getElementById("togg5");
+        let d1=document.getElementById("d1");
+        let d2=document.getElementById("d2");
+        let d3=document.getElementById("d3");
+        let d4=document.getElementById("d4");
+        let d5=document.getElementById("d5");
+        togg1.addEventListener("click",()=>{
+    if(getComputedStyle(d1).display != "none"){
+        d1.style.display="none";
+    }else{
+        d1.style.display="block";
+    }
+})
+togg2.addEventListener("click",()=>{
+    if(getComputedStyle(d2).display != "none"){
+        d2.style.display="none";
+    }else{
+        d2.style.display="block";
+    }
+})
+togg3.addEventListener("click",()=>{
+    if(getComputedStyle(d3).display != "none"){
+        d3.style.display="none";
+    }else{
+        d3.style.display="block";
+    }
+})
+togg4.addEventListener("click",()=>{
+    if(getComputedStyle(d4).display != "none"){
+        d4.style.display="none";
+    }else{
+        d4.style.display="block";
+    }
+})
+
+togg5.addEventListener("click",()=>{
+    if(getComputedStyle(d5).display != "none"){
+        d5.style.display="none";
+    }else{
+        d5.style.display="block";
+    }
+})
+      </script>
     </body>
 </html>

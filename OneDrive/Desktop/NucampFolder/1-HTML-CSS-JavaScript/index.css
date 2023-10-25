@@ -7,18 +7,19 @@
 }
 .title{
     border:solid rgb(20, 3, 36) 4px;
+    background-color: blueviolet;
 }
 h1,h2,h3{
     text-align:center; 
 }
 h1{
-    color:rgb(13, 13, 190);
+    color:white;
 }
 h2{
-    color:rgb(85, 45, 6);
+    color:wheat;
 }
 h3{
-    color:rgb(74, 8, 135)
+    color:burlywood;
 }
 p{
     color:rgb(20, 3, 36) 
@@ -26,22 +27,24 @@ p{
 ol{
    background-color: aquamarine;
    margin-top:0px;
-   margin-right:4px;
-   margin-bottom:0px;
+   margin-right: 200px;
+   margin-bottom: 4px;
+   margin-left: 50px
 }
 ul{
     background-color: aquamarine;
-    margin-left:0px;
+    margin-left:200px;
     margin-right:2px;
     margin-top:0px;
     
 }
 .img1{
-    margin-right:4px;
+    margin-right:200px;
 }
 .center{
     display:flex;
-    border:solid rgb(20, 3, 36) 5px;
+    border:solid rgb(20, 3, 36);
+    background-color:blueviolet;
 }
 .row1{
     background-color: red;
